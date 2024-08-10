@@ -1,0 +1,259 @@
+.Content {
+    min-height: 300vh;
+    background: radial-gradient(circle farthest-corner at center center, #F6F8F9 29%, #E5EBEE 42%, #D7DEE3 67%, #F8FFDA 100%, #F5F7F9 83%);
+    padding: 5%;
+    /* background-color: rgb(30, 28, 28); */
+    transition: 0.2s;
+}
+
+
+.Content .article {
+    min-height: 92vh;
+    align-items: center;
+    display: flex;
+
+}
+
+.Content .article .About-me {
+    display: flex;
+    flex-direction: column;
+}
+
+.Content .article .About-me .contact {
+    text-decoration: none;
+    padding: 0.6rem;
+    margin-top: .45rem;
+    width: 7rem;
+    background-color: #05C1FF;
+    text-align: center;
+    color: whitesmoke;
+    border-radius: .4rem;
+}
+
+
+.Content .article .About-me .contact:hover{
+    background-color: #666666;
+}
+
+.Content .article .About-me .contact:active{
+    transform: scale(.9);
+}
+
+.Content .article .header-color {
+    background: #008080;
+    background: linear-gradient(to right, #008080 0%, #f2a20f 25%, #05C1FF 50%, #076e64 75%, #005757 100%);
+    -webkit-background-clip: text;
+    font-size: 1.5rem;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.8rem;
+}
+
+.Content .article .Mengleang {
+    color: #009762;
+    font-size: 2rem;
+
+}
+
+.Content .article p {
+    color: #3f7c67;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 0.6rem;
+    font-size: 1.12rem;
+    padding: 2px;
+    margin-top: 2px;
+    transition: 0.8s;
+    box-shadow: 2px 2px 2px rgba(193, 193, 193, 0.9);
+}
+
+.Content .article p:hover {
+    box-shadow: none;
+}
+
+.Content .article img {
+    width: clamp(2rem, 80%, 14rem);
+    border-radius: 5px 40px 40px 5px;
+    -webkit-border-radius: 5px 40px 40px 5px;
+    -moz-border-radius: 5px 40px 40px 5px;
+    box-shadow: 0px 0px 5px 5px rgba(27, 25, 25, 0.2);
+    border: 2px inset #c7c7c7;
+    background: transparent;
+    transition: 1s;
+    height: 30%;
+    
+}
+
+.Content .article img:hover {
+    transform: scale(0.95);
+    box-shadow: none;
+   
+}
+
+.Content .article p {
+    width: 70%;
+    padding: 1%;
+}
+
+.article2 {
+    min-height: 50vh;
+    padding-top: 5rem;
+}
+
+.article2 h1 {
+    color: #3b3b3b;
+}
+
+.article2 .tech-box {
+    width: 62%;
+    display: flex;
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(5.1rem, 1fr));
+    grid-auto-rows: minmax(5rem, auto);
+    gap: 0.4rem;
+}
+
+.article2 .tech-box .tech {
+    width: 5.5rem;
+    height: 5.5rem;
+    background: #878787;
+    background: linear-gradient(95deg, #464545 11%, #070606 50%);
+    background: -webkit-linear-gradient(95deg, #464545 11%, #070606 50%);
+    background: -moz-linear-gradient(95deg, #464545 11%, #070606 50%);
+    text-align: center;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: whitesmoke;
+    border-radius: 0.2rem;
+    box-shadow: 1px -1px 0px 1px rgba(27, 25, 25, 0.21);
+    -webkit-box-shadow: 1px -1px 0px 1px rgba(27, 25, 25, 0.21);
+    -moz-box-shadow: 1px -1px 0px 1px rgba(27, 25, 25, 0.21);
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+
+.article2 .tech-box .tech:hover {
+    box-shadow: none;
+    transform: scale(0.99);
+}
+
+.article2 .tech-box .tech svg {
+    width: 3rem;
+}
+
+.article2 .tech-box .tech img {
+    width: 3rem;
+    margin-top: 0.5rem;
+}
+
+.article2 .tech-box .tech span {
+    color: rgb(237, 237, 237);
+    font-weight: 600;
+    padding: 1px;
+}
+
+.article3 {
+    padding-top: 5rem;
+    min-height: 100vh;
+}
+
+.article3 .project_box {
+    width: 70%;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+    grid-auto-rows: minmax(10rem, auto);
+    gap: 0.4rem;
+}
+
+.article3 .Text-project {
+    color: #3b3b3b;
+    margin-bottom: 1rem;
+
+}
+
+.article3 .project_box .project {
+    width: 17rem;
+    height: 15rem;
+    background: #878787;
+    background: linear-gradient(95deg, #464545 11%, #070606 50%);
+    background: -webkit-linear-gradient(95deg, #464545 11%, #070606 50%);
+    background: -moz-linear-gradient(95deg, #464545 11%, #070606 50%);
+    text-align: center;
+    padding: 0.8rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: whitesmoke;
+    border-radius: 0.2rem;
+    box-shadow: 1px -1px 0px 1px rgba(27, 25, 25, 0.21);
+    -webkit-box-shadow: 1px -1px 0px 1px rgba(27, 25, 25, 0.21);
+    -moz-box-shadow: 1px -1px 0px 1px rgba(27, 25, 25, 0.21);
+    cursor: pointer;
+    transition: 0.4s;
+    text-align: start;
+    justify-content: space-between;
+
+}
+
+.article3 .project_box .project p {
+    line-height: 1.2rem;
+}
+
+.article3 .project_box .project a {
+    color: rgb(255, 255, 255);
+    padding: 0.5rem;
+    background-color: slategray;
+    text-decoration: none;
+    border-radius: 0.4rem;
+
+
+}
+
+.article3 .project_box .project a:hover {
+    background-color: #070606;
+}
+
+.article3 .project_box .project:hover {
+    box-shadow: none;
+    transform: scale(0.99);
+}
+
+@media screen and (max-width:635px) {
+    .Content .article img {
+        width: 10rem;
+
+        border-radius: 5px 5px 40px 40px;
+        -webkit-border-radius: 5px 5px 40px 40px;
+        -moz-border-radius: 5px 5px 40px 40px;
+    }
+
+    .Content .article {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .Content .article p {
+        margin-top: 2rem;
+        width: 95%;
+
+    }
+
+}
+.article4{
+    color: #3f7c67;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 0.6rem;
+    font-size: 1.12rem;
+    padding: 2px;
+    transition: 0.8s;
+    margin-top: 4.5rem;
+    line-height: 1.6rem;
+    min-height: 65vh;
+}
+.article4 b ,h3 ,h4{
+    color: rgb(71, 0, 185);
+}

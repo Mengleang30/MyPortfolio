@@ -1,0 +1,85 @@
+.Header {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.2px);
+    -webkit-backdrop-filter: blur(3.2px);
+    border: 1px solid rgba(255, 255, 255, 0.82);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    padding: 0.35rem;
+    align-items: center;
+    height: 4.5rem;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+    top: 0;
+    /* position: sticky; */
+    border-bottom-left-radius: 0.4rem;
+    border-bottom-right-radius: 0.4rem;
+    /* position: relative; */
+   
+}
+
+/* #header {
+    position: sticky;
+    top: 0;
+} */
+
+.Header h2 {
+    color: royalblue;
+    font-weight: 800;
+}
+
+.Header img {
+    width: 3rem;
+
+}
+
+.Nigth_mod {
+    width: 1.5rem;
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.Header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+.Header nav ul li {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: royalblue;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.Header nav ul a {
+    text-decoration: none;
+}
+
+.Header nav ul a li:hover {
+    color: rgb(255, 25, 0);
+}
+
+.Header nav ul a li:focus {
+    color: rgb(113, 19, 8);
+}
+
+.Header nav {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+}
+
+@media screen and (max-width:635px) {
+    .Header img {
+        width: 2.5rem;
+    }
+
+    .Header h2 {
+        display: none;
+    }
+
+}

@@ -1,0 +1,12 @@
+html {
+    scroll-behavior: smooth;
+  }
+#header{
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.Content{
+  position: relative;
+  z-index: 75;
+}
