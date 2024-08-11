@@ -5,7 +5,7 @@
     -webkit-backdrop-filter: blur(1.9px);
     border: 1px solid rgba(86, 85, 85, 0.82);
     border: 1px solid rgba(86, 85, 85, 0.82);
-    min-height: 35vh;
+   
     color: aliceblue;
     display: flex;
     align-items: center;

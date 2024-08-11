@@ -1,11 +1,10 @@
 .Content {
-    min-height: 300vh;
+    min-height: 320vh;
     background: radial-gradient(circle farthest-corner at center center, #F6F8F9 29%, #E5EBEE 42%, #D7DEE3 67%, #F8FFDA 100%, #F5F7F9 83%);
     padding: 5%;
     /* background-color: rgb(30, 28, 28); */
     transition: 0.2s;
 }
-
 
 .Content .article {
     min-height: 92vh;
@@ -78,8 +77,7 @@
     border: 2px inset #c7c7c7;
     background: transparent;
     transition: 1s;
-    height: 30%;
-    
+    height: 30%;   
 }
 
 .Content .article img:hover {
@@ -254,6 +252,23 @@
     line-height: 1.6rem;
     min-height: 65vh;
 }
-.article4 b ,h3 ,h4{
-    color: rgb(71, 0, 185);
+.article4 b ,h4{
+    color: rgb(43, 250, 164);
+}
+.Details{
+    margin: 0.4rem;
+    border: 0.1rem solid black;
+    border-radius: 0.4rem;
+    padding: 0.5rem;
+    background: linear-gradient(95deg, #464545 11%, #070606 50%);
+    background: -webkit-linear-gradient(95deg, #524f4f 11%, #6b6868 50%);
+    background: -moz-linear-gradient(95deg, #464545 11%, #070606 50%);
+    color: #ebebeb;
+    transition: 0.4s;
+}
+.Details:hover{
+    transform: scale(0.99);
+    box-shadow: 1px -1px 0px 1px rgba(27, 25, 25, 0.21);
+    -webkit-box-shadow: 1px -1px 0px 1px rgba(27, 25, 25, 0.21);
+    -moz-box-shadow: 1px -1px 0px 1px rgba(27, 25, 25, 0.21);
 }

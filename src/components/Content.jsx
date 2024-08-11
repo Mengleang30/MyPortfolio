@@ -137,23 +137,26 @@ const Content = () => {
                 </div>
 
             </article>
+
             <article className="article4" id='article4'>
                 <h3>About this portfolio</h3>
-                <p>Creating a portfolio website has been an exciting journey for me as a 3rd-year IT student. It allowed me to put my front-end development skills to the test and showcase my projects and experience. Here’s a detailed look at how I built my portfolio website.</p>
-                <p> <b>React.js: </b> A popular JavaScript library for building user interfaces. React’s component-based architecture made it easier to manage and reuse code. </p>
-                <p><b>Vite: </b> A build tool that provides a faster and more efficient development environment compared to traditional setups like Create React App.</p>
-                <p>
+                <p className='Details'>Creating a portfolio website has been an exciting journey for me as a 3rd-year IT student. It allowed me to put my front-end development skills to the test and showcase my projects and experience.
+                    Here’s a detailed look at how I built my portfolio website.</p>
+                <p className='Details' > <b>React.js: </b> A popular JavaScript library for building user interfaces. React’s component-based architecture made it easier to manage and reuse code. </p>
+                <p className='Details'><b>Vite: </b> A build tool that provides a faster and more efficient development environment compared to traditional setups like Create React App.</p>
+                <p className='Details'>
                     <b> CSS Modules: </b>
                     For styling, I used CSS Modules to keep the styles scoped to each component, ensuring no conflicts and easy maintenance.
                 </p>
-                <p> <b>Planning and Design </b>I used Figma for creating wireframes and design mockups.
+                <p className='Details'> <b>Planning and Design </b>I used Figma for creating wireframes and design mockups.
                     This step helped me visualize the final look and ensure consistency in design elements like color schemes, fonts, and spacing.</p>
-                <p><b>Building the Components </b>
+                <p className='Details'><b>Building the Components </b>
                     I have 3 components such as <br /> -Header:Contains the navigation links and a night mode toggle  <br />-Secttion: Details about my information <br />-Footer : Show feelback form , how to contact me
                 </p>
-                <p><b>Styling the Website</b> For styling, I used CSS Modules to ensure styles were modular and didn’t clash across different components. I focused on a responsive design, using media queries to make sure the website looked great on both desktop and mobile devices.</p>
-                <p><b>Deploying the Website </b>Once the website was ready, I deployed it on Vercel, which offers seamless integration with GitHub and supports dynamic React apps. Deployment was as simple as connecting my GitHub repository to Vercel and clicking a few buttons.</p>
-                <p><b>Reflecting on the Process </b>Building this portfolio website was a rewarding experience. It helped me solidify my understanding of React and modern web development practices. Plus, it gave me a platform to showcase my skills and projects, which is essential as I start looking for internships and job opportunities. </p>
+                <p className='Details'><b>Styling the Website</b> For styling, I used CSS Modules to ensure styles were modular and didn’t clash across different components. I focused on a responsive design, using media queries to make sure the website
+                    looked great on both desktop and mobile devices.</p>
+                <p className='Details'><b>Reflecting on the Process </b>Building this portfolio website was a rewarding experience. It helped me solidify my understanding of React and modern web development practices. Plus, it gave me a platform to showcase my skills
+                    and projects, which is essential as I start looking for internships and job opportunities. </p>
             </article>
         </section>
     )

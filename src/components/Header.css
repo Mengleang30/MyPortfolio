@@ -45,7 +45,7 @@
 .Header nav ul {
     display: flex;
     list-style: none;
-    gap: 1rem;
+    
 }
 
 .Header nav ul li {
@@ -53,6 +53,8 @@
     color: royalblue;
     font-weight: 600;
     cursor: pointer;
+    border-radius: 0.35rem;
+    padding: 5px;
 }
 
 .Header nav ul a {
@@ -61,6 +63,8 @@
 
 .Header nav ul a li:hover {
     color: rgb(255, 25, 0);
+    background-color: royalblue;
+   
 }
 
 .Header nav ul a li:focus {
@@ -73,6 +77,34 @@
     gap: 1rem;
 }
 
+.right-nav{
+    display: none;
+    background-color: rgb(198, 198, 198);
+    flex-direction: column;
+    position: fixed;
+    height: 42rem;
+    right: 0;
+    top:5%;
+    border-radius: .4rem;
+    width: 6rem;
+    padding: 0.5rem;
+    justify-content: space-evenly;
+
+}
+.close-btn{
+    cursor: pointer;
+    
+}
+.right-nav ul{
+    display: flex;
+    height: 60%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#option{
+    width: 2rem;
+    display: none;
+}
 @media screen and (max-width:635px) {
     .Header img {
         width: 2.5rem;
