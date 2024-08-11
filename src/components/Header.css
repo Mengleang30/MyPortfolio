@@ -18,7 +18,7 @@
     border-bottom-left-radius: 0.4rem;
     border-bottom-right-radius: 0.4rem;
     /* position: relative; */
-   
+
 }
 
 /* #header {
@@ -45,7 +45,10 @@
 .Header nav ul {
     display: flex;
     list-style: none;
-    
+
+}
+.Header .right-nav{
+    display: none;
 }
 
 .Header nav ul li {
@@ -64,7 +67,7 @@
 .Header nav ul a li:hover {
     color: rgb(255, 25, 0);
     background-color: royalblue;
-   
+
 }
 
 .Header nav ul a li:focus {
@@ -77,37 +80,55 @@
     gap: 1rem;
 }
 
-.right-nav{
-    display: none;
-    background-color: rgb(198, 198, 198);
-    flex-direction: column;
-    position: fixed;
-    height: 42rem;
-    right: 0;
-    top:5%;
-    border-radius: .4rem;
-    width: 6rem;
-    padding: 0.5rem;
-    justify-content: space-evenly;
-
-}
 .close-btn{
-    cursor: pointer;
-    
-}
-.right-nav ul{
-    display: flex;
-    height: 60%;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-#option{
-    width: 2rem;
     display: none;
 }
+#option {
+    width: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
 @media screen and (max-width:635px) {
     .Header img {
         width: 2.5rem;
+    }
+
+    .Header nav ul {
+        display: none;
+    }
+    #option{
+        display: inline;
+    }
+
+    .right-nav {
+        display: flex;
+        background-color: rgb(198, 198, 198);
+        flex-direction: column;
+        position: fixed;
+        height: 42rem;
+        right: 0;
+        top: 5%;
+        border-radius: .4rem;
+        width: 6rem;
+        padding: 0.5rem;
+        justify-content: space-evenly;
+    }
+
+    #ul_right{
+        display: none;
+    }
+    .close-btn {
+        cursor: pointer;
+        display: inline;
+
+    }
+
+    .right-nav ul {
+        display: flex;
+        height: 60%;
+        flex-direction: column;
+        justify-content: space-evenly;
     }
 
     .Header h2 {
